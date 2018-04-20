@@ -10,6 +10,5 @@ int main()
         int id = omp_get_thread_num();
         printf("Hello, World! Thread Number: (%d)\n", id);
     }
-
     return 0;
 }
